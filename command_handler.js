@@ -23,3 +23,12 @@ module.exports = (client, Discord) => {
 
 
 }
+
+
+
+
+
+ADD THIS TO INDEX : 
+['command_handler', 'event_handler'].forEach(handler =>{
+    require(`./handlers/${handler}`)(client);
+})
