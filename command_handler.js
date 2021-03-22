@@ -19,7 +19,7 @@ module.exports = (client, Discord) => {
     }
 
 
-    ['moderation', 'fun', 'images', 'games', 'information', 'utility', 'marriage', 'random', 'settings', 'ownercommands'].forEach(e => load_dir(e));
+    ['foldernames in here', 'next folder etc'].forEach(e => load_dir(e));
 
 
 }
